@@ -44,10 +44,10 @@ int main()
 
 | **Programming Language** | **Elapsed Time** |
 | ------------------------ | ---------------- |
+| **C (GCC) 14.2.0**       | 1550 ms          |
+| **C++ (GCC) 14.2.0**     | 1556 ms          |
 | **Go 1.23.3**            | 1625 ms          |
 | **Java 23**              | 1765 ms          |
-| **C (GCC) 14.2.0**       | 2230 ms          |
-| **C++ (GCC) 14.2.0**     | 2272 ms          |
 | **Bun 1.1.42 (TS)**      | 6240 ms          |
 | **Bun 1.1.42 (JS)**      | 6260 ms          |
 | **Deno 2.1.4 (TS)**      | 8347 ms          |
@@ -58,5 +58,4 @@ int main()
 
 Notes:
 
-- I am running Win 11, prolly that's the reason why c & cpp are slower than go & java
 - JS/TS results are off the mark (199999999782419460 instead of 199999999800000000)
